@@ -1,13 +1,63 @@
+:root {
+	--theme: #191b20;
+	--accent: #242629;
+	--primary: #08102d;
+	--font: white;
+}
+
+@font-face {
+	font-family: core-font;
+	src: url("./resources/Kabrio-Soft-Bold.ttf");
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+div,
+input,
+textarea,
+header {
+	box-sizing: border-box;
+	font-size: 1.2vw;
+}
+
+textarea {
+	border: none;
+	resize: none;
+	outline: none;
+}
+
+button {
+	outline: none;
+	border: none;
+	transition: 0.1s ease-in-out;
+	background: none;
+	cursor: pointer;
+	display: grid;
+	place-items: center;
+	background: var(--accent);
+	font-family: core-font;
+	color: var(--font);
+}
+
+button:active {
+	transform: scale(0.9);
+}
+
+p {
+	font-family: core-font;
+	font-size: 1.2vw;
+	color: var(--font);
+	margin: 0px;
 }
