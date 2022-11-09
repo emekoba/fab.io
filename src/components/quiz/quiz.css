@@ -1,0 +1,15 @@
+.quiz {
+	height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	gap: 20px;
+}
+
+.question {
+	background: var(--accent);
+	padding: 20px;
+	padding-inline: 5vw;
+	height: 18vh;
+	display: grid;
+	place-items: center;
+}
