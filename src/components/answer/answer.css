@@ -1,0 +1,15 @@
+.answer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--theme);
+}
+
+.answer > button {
+	height: 100%;
+	width: 50vw;
+	display: grid;
+	align-items: center;
+	padding-inline: 3vw;
+	justify-content: flex-start;
+}

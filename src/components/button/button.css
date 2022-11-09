@@ -1,0 +1,9 @@
+.button {
+	height: 100px;
+	width: 400px;
+	font-size: 1.2vw;
+	display: grid;
+	place-items: center;
+	bottom: 20px;
+	right: 20px;
+}

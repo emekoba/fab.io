@@ -13,3 +13,24 @@
 	display: grid;
 	place-items: center;
 }
+
+.question > p {
+	text-align: center;
+}
+
+.question > p > span {
+	color: red;
+	margin-left: 10px;
+}
+
+.options {
+	padding-inline: 10vw;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.bottom {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
